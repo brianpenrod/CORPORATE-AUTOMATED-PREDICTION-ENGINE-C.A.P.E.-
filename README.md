@@ -7,11 +7,11 @@ The Capability: C.A.P.E. utilizes a weighted ensemble of Gradient Boosting machi
 
 ```mermaid
 graph TD
-    %% Define Styles
-    classDef ingest fill:#222,stroke:#fff,stroke-width:2px;
-    classDef process fill:#004d40,stroke:#00cc96,stroke-width:2px;
-    classDef model fill:#3d2352,stroke:#888,stroke-width:2px;
-    classDef output fill:#222,stroke:#ef553b,stroke-width:2px;
+    %% Define Styles - NOW WITH WHITE TEXT FOR CONTRAST
+    classDef ingest fill:#222,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef process fill:#004d40,stroke:#00cc96,stroke-width:2px,color:#fff;
+    classDef model fill:#3d2352,stroke:#888,stroke-width:2px,color:#fff;
+    classDef output fill:#222,stroke:#ef553b,stroke-width:2px,color:#fff;
 
     %% Nodes
     RAW[("DATA STREAM<br>(SQL / API Ingestion)")]:::ingest
